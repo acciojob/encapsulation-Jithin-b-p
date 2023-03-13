@@ -6,8 +6,8 @@ public class Main {
 //        rw.name = "jithin";
 //        name has private access in RWOnly
 
-        rw.setter("jithin");
-        String name = rw.getter();
+        rw.setName("jithin");
+        String name = rw.getName();
 
         System.out.println(name);
     }
